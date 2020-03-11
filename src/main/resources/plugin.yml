@@ -1,0 +1,5 @@
+name: Sponsor
+main: dev.tinchx.sponsor.SponsorPlugin
+version: 1.0-SNAPSHOT
+author: Tinchx
+load: STARTUP

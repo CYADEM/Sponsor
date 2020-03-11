@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f53b1c0e-9387-4a4d-9e90-eaeed189ce6d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YT9z5sGyRZ2glboZ6GskIej7S6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f53b1c0e-9387-4a4d-9e90-eaeed189ce6d" name="Default Changelist" comment="" />
+      <created>1570401233446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570401233446</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="648" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582956003651">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="648" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582956003651" />
+    <state width="1556" height="231" key="GridCell.Tab.0.bottom" timestamp="1582961210771">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1556" height="231" key="GridCell.Tab.0.bottom/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582961210771" />
+    <state width="1556" height="231" key="GridCell.Tab.0.center" timestamp="1582961210771">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1556" height="231" key="GridCell.Tab.0.center/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582961210771" />
+    <state width="1556" height="231" key="GridCell.Tab.0.left" timestamp="1582961210771">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1556" height="231" key="GridCell.Tab.0.left/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582961210771" />
+    <state width="1556" height="231" key="GridCell.Tab.0.right" timestamp="1582961210771">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1556" height="231" key="GridCell.Tab.0.right/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582961210771" />
+    <state x="301" y="80" key="SettingsEditor" timestamp="1582961208099">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="301" y="80" key="SettingsEditor/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582961208099" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1582999906793">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582999906793" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
