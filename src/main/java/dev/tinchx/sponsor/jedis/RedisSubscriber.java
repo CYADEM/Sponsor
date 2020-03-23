@@ -3,6 +3,7 @@ package dev.tinchx.sponsor.jedis;
 import dev.tinchx.sponsor.SponsorPlugin;
 import dev.tinchx.sponsor.events.PacketReceiveEvent;
 import org.bukkit.Bukkit;
+import org.bukkit.scheduler.BukkitRunnable;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPubSub;
 
@@ -26,7 +27,13 @@ public class RedisSubscriber {
                     String[] args = message.split(";");
 
                     String command = args[0];
-                    Bukkit.getPluginManager().callEvent(new PacketReceiveEvent(channel, command, args));
+                    new BukkitRunnable() {
+
+                        @Override
+                        public void run() {
+                            Bukkit.getPluginManager().callEvent(new PacketReceiveEvent(channel, command, args));
+                        }
+                    }.run();
                 }
             }
         };

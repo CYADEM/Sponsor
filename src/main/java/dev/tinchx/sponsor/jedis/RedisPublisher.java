@@ -3,6 +3,7 @@ package dev.tinchx.sponsor.jedis;
 import dev.tinchx.sponsor.SponsorPlugin;
 import dev.tinchx.sponsor.events.PacketSendingEvent;
 import org.bukkit.Bukkit;
+import org.bukkit.scheduler.BukkitRunnable;
 import redis.clients.jedis.Jedis;
 
 public class RedisPublisher {
@@ -22,7 +23,13 @@ public class RedisPublisher {
             }
              */
             jedis.publish(con, message);
-            Bukkit.getPluginManager().callEvent(new PacketSendingEvent(con, message));
+            new BukkitRunnable() {
+
+                @Override
+                public void run() {
+                    Bukkit.getPluginManager().callEvent(new PacketSendingEvent(con, message));
+                }
+            }.run();
         }
     }
 }

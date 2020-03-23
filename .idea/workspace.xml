@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f53b1c0e-9387-4a4d-9e90-eaeed189ce6d" name="Default Changelist" comment="" />
+    <list default="true" id="f53b1c0e-9387-4a4d-9e90-eaeed189ce6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Sponsor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sponsor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/tinchx/sponsor/jedis/RedisPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/tinchx/sponsor/jedis/RedisPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/tinchx/sponsor/jedis/RedisSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/tinchx/sponsor/jedis/RedisSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -44,6 +54,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1584469434123">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/1600.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1584469434123" />
     <state x="648" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582956003651">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -72,6 +86,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1600.0.1280.960/0.0.1600.900@0.0.1600.900" timestamp="1582999906793" />
+    <state x="497" y="162" width="606" height="536" key="find.popup" timestamp="1584467899605">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="497" y="162" width="606" height="536" key="find.popup/1600.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1584467899605" />
   </component>
   <component name="masterDetails">
     <states>
