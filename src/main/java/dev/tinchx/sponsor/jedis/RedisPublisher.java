@@ -17,11 +17,11 @@ public class RedisPublisher {
 
     public void write(String con, String message) {
         try (Jedis jedis = plugin.getJedisPool().getResource()) {
-            /*
-            if (SponsorPlugin.getInstance().getConfig().getBoolean("redis.usepass")) {
-                jedis.auth(SponsorPlugin.getInstance().getConfig().getString("redis.password"));
+            if (plugin.getConfig().contains("redis.auth.enabled") && plugin.getConfig().getBoolean("redis.auth.enabled")) {
+                if (plugin.getConfig().contains("redis.auth.pass")) {
+                    jedis.auth(plugin.getConfig().getString("redis.auth.pass"));
+                }
             }
-             */
             jedis.publish(con, message);
             new BukkitRunnable() {
 
@@ -29,7 +29,7 @@ public class RedisPublisher {
                 public void run() {
                     Bukkit.getPluginManager().callEvent(new PacketSendingEvent(con, message));
                 }
-            }.run();
+            }.runTaskLater(SponsorPlugin.getInstance(), 1L);
         }
     }
 }

@@ -9,6 +9,7 @@ import redis.clients.jedis.JedisPubSub;
 
 public class RedisSubscriber {
 
+    private SponsorPlugin plugin = SponsorPlugin.getInstance();
     private Jedis jedis = SponsorPlugin.getInstance().getJedisPool().getResource();
 
     public RedisSubscriber(String channel) {
@@ -16,6 +17,11 @@ public class RedisSubscriber {
     }
 
     private void subscribe(String channel) {
+        if (plugin.getConfig().contains("redis.auth.enabled") && plugin.getConfig().getBoolean("redis.auth.enabled")) {
+            if (plugin.getConfig().contains("redis.auth.pass")) {
+                jedis.auth(plugin.getConfig().getString("redis.auth.pass"));
+            }
+        }
         new Thread(() -> jedis.subscribe(get(channel), channel)).start();
     }
 
@@ -33,8 +39,9 @@ public class RedisSubscriber {
                         public void run() {
                             Bukkit.getPluginManager().callEvent(new PacketReceiveEvent(channel, command, args));
                         }
-                    }.run();
+                    }.runTaskLater(SponsorPlugin.getInstance(), 1L);
                 }
+
             }
         };
     }
